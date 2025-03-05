@@ -8,7 +8,7 @@
 import Foundation
 
 @Observable
-class QuoteViewModel{
+class QuoteViewModel {
     
     var currentQuote: Qoute?
     

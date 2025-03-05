@@ -7,20 +7,18 @@
 
 import Foundation
 
-struct Qoute: Identifiable, Codable {
+struct Qoute: Codable {
     //MARK: Stored Properties
-    var quoteText: String
-    var quoteAuthor: String
-    var senderName: String
-    var senderLink: String
-    var quteLink: String
-    let id: Int
-    
-}
+    let quoteText: String
+    let quoteAuthor: String
+    let senderName: String
+    let senderLink: String
+    let quoteLink: String
+    }
 
 let exampleQuote = Qoute(quoteText: "Hi",
                          quoteAuthor: "Me",
                          senderName: "Also me",
                          senderLink: "",
-                         quteLink: "",
-                         id: 123)
+                         quoteLink: ""
+                         )
